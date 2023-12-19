@@ -1,0 +1,33 @@
+{
+  "name": "bay20/customer-comment-invoice",
+  "description": "Show Customer Comment In Invoice",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Bay20CustomerCommentInvoice\\": "src/"
+    }
+  },
+  "authors":[
+    {
+        "name":"Bay20"
+    }
+  ],
+  "require": {
+        "shopware/core": "6.5.*"
+  },
+  "extra": {
+    "shopware-plugin-class": "Bay20CustomerCommentInvoice\\Bay20CustomerCommentInvoice",
+    "plugin-icon": "src/Resources/config/plugin.png",
+    "copyright": "(c) by BAY20 SOFTWARE CONSULTANCY SERVICES PVT. LTD.",
+    "label": {
+        "en-GB": "Bay20 Customer Comment In Invoice",
+        "de-DE": "Bay20 Kundenkommentar in der Rechnung"
+    },
+    "description": {
+            "de-DE": "Der „Kundenkommentar in der Rechnung“ – ein Shopware 6-Plugin, das Ihr Rechnungserlebnis verbessern soll. Diese innovative Erweiterung integriert Kundenkommentare nahtlos direkt unter der Produkttabelle in Ihre Rechnungen und bietet so eine klare und prägnante Möglichkeit, wertvolles Feedback darzustellen. Verbessern Sie Ihre Kundenkommunikation, indem Sie mühelos Kommentare zu ihren Bestellungen anzeigen und so einen transparenteren und personalisierteren Rechnungsprozess schaffen. Mit „Kundenkommentar in Rechnung“ haben Sie die Flexibilität, Ihre Rechnungen zu bereichern, eine stärkere Bindung zu Ihren Kunden zu fördern und ein höheres Serviceniveau zu bieten.",
+            "en-GB": "The 'Customer Comment In Invoice' – a Shopware 6 plugin designed to enhance your invoicing experience. This innovative extension seamlessly integrates customer comments directly below the product table on your invoices, providing a clear and concise way to showcase valuable feedback. Elevate your customer communication by effortlessly displaying comments related to their orders, creating a more transparent and personalized invoicing process. With 'Customer Comment In Invoice,' you have the flexibility to enrich your invoices, promote a stronger connection with your customers and delivering an enhanced level of service. "
+    }
+  }
+}

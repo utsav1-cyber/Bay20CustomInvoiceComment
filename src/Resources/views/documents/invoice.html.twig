@@ -1,0 +1,14 @@
+{% sw_extends '@Framework/documents/invoice.html.twig' %}
+
+{% block payment_shipping %}
+    {% block customerComment %}
+        {% if order.customerComment %}
+            <div class="comment-title ">
+                {{ "document.customerCommentHeader"|trans|sw_sanitize }}
+            </div>
+            <div class="customer-comment">{{ order.customerComment|sw_sanitize|nl2br }}</div>
+        {% endif %}
+    {% endblock %}
+
+    {{ parent() }}
+{% endblock %}
